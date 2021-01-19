@@ -7,7 +7,7 @@ import { map, catchError } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class AviationstackService {
-  url: string = 'http://api.aviationstack.com/v1/';
+  url: string = 'https://api.aviationstack.com/v1/';
   key: string = '9f68bedbcc76887a9bcbf0b596f8a43e';
 
   constructor(private http: HttpClient) {}
